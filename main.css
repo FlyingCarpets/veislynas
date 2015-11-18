@@ -27,7 +27,7 @@ font-family: 'Open Sans', sans-serif;
 }
 
 .navbar { 
-    display: inline-block;
+    /*display: inline-block;
     margin-left: auto;
     margin-right: auto;/*trys pirmos eilutes padaro navbar autowidth*/
     background-color: white;
@@ -39,13 +39,21 @@ font-family: 'Open Sans', sans-serif;
 	border: 1px solid #cdcdcd; /*navbar border padaro kaip ir kennel border*/
 }
 
-/*li {
-	padding-left: 36.7px; /*tam, kad navbar butu per visa puslapi*/
-	/*padding-right: 36.7px;
-}*/
+li {
+	padding-left: 30px; /*tam, kad navbar butu per visa puslapi*/
+	padding-right: 30px;
+}
 
 .navbar-default .container-fluid .navbar-nav li a{
 	color: #393939;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: black;
+}
+
+.navbar-toggle .icon-bar {
+	border: 1px solid black;
 }
 
 .jumbotron {
