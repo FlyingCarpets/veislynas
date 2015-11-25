@@ -337,3 +337,11 @@ table{
 		height: auto; 
 	}
 }
+@media (max-width:300px) {
+	.panel-heading .logo img {
+		height: 35px; 
+	}
+	.panel-heading .eng img {
+		height: 30px;
+	}
+}
