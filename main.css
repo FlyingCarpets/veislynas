@@ -2,64 +2,39 @@
 	border: black 1px solid;
 }*/
 
-html, body {
-	height: 100%;
-	width: 100%;
-	margin: 0;
-	font-family: 'Open Sans', sans-serif;
-}
-
-.wrapper {
-	padding: 0px 10px 10px 10px;
-	height: auto;
-}
-
-footer {
-	display: table;
-	height: 1px;
-}
-/*html {
+html {
 	position: relative;
 	min-height: 100%;
+	font-family: 'Open Sans', sans-serif;
 }
 body {
-	font-size: 25px;
 	font-family: 'Open Sans', sans-serif;
 	margin: 10px 20px 80px 20px;
-}*/
+}
 
+/*LOGO & LANGUAGE*/
 .container .panel-heading {
 	padding: 10px 10px 0px 10px;
 }
-.panel-default .panel-heading {
+.panel-heading {
 	background-color: white;
-}
-
-.panel-default {
-	border: none;
 }
 
 .panel-heading div {
 	display: inline-block;
 }
-
-/*.header {
-	font-size: 20px;
+.panel-heading .logo {
+	padding-right: 700px;
+	margin-left: -10px;
 }
 
-
-.header img {
-	height: 50px;
+.panel-heading .eng {
+	opacity: 0.5;
 }
 
-.header .social {
-	margin-top: 5px;
-}*/
+/*NAVBAR*/
 
 .navbar { 
-    /*display: inline-block;
-    margin-left: auto;
-    margin-right: auto;/*trys pirmos eilutes padaro navbar autowidth*/
     font-size: 20px;
     background-color: white;
     background-image: url("Patterns/swirl_pattern/swirl_pattern.png");
@@ -87,6 +62,8 @@ li {
 	border: 1px solid black;
 }
 
+/*MAIN PIC*/
+
 .jumbotron {
 	background-image: url("Mainpic/pic3_resized.jpg");
 	height: 500px;
@@ -95,31 +72,26 @@ li {
 	color: white;
 }
 
-@media screen and (max-width:700px) {
-	.jumbotron {
-		height: 300px;
-	}
+.jumbotron .jtext {
+	float: center;
+	margin-left: 10px;
+	
 }
 
 .jumbotron h1 {
 	text-shadow: 2px 2px #393939;
 	font-size: 70px;
 	font-weight: bold;
-	position: relative;
-	top: 100px;
-	padding-left: 20px;
 }
 
 .jumbotron h3 {
 	text-shadow: 2px 2px #393939;
 	font-size: 47px;
-	position: relative;
-	top: 100px;
-	padding-left: 40px;
 }
 
+/*THUMBNAILS*/
+
 .kennel {
-	/*background-color: #e3d6c6;*/
 	background-image: url("Patterns/swirl_pattern/swirl_pattern.png");
 	background-repeat: repeat;
 	padding-top: 20px;
@@ -133,73 +105,17 @@ p {
 	line-height: 90%;
 }
 
-.panel-footer {
-	margin-top: 10px;
-	background-color: white;
-	border: none;
-
-}
-
-.panel-footer div {
-	display: inline-block;
-}
-
-.panel-footer  i{
-    width: 40px;
-    height: 40px;
-    color: #FFF;
-    background-color: #909AA0;
-    font-size: 22px;
-    text-align:center;
-    padding-top: 12px;
-    border-radius: 50%;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -o-border-radius: 50%;
-    transition: all ease 0.3s;
-    -moz-transition: all ease 0.3s;
-    -webkit-transition: all ease 0.3s;
-    -o-transition: all ease 0.3s;
-    -ms-transition: all ease 0.3s;
- }
-
-.panel-footer i:hover {
-    color: #FFF;
-    text-decoration: none;
-    transition: all ease 0.3s;
-    -moz-transition: all ease 0.3s;
-    -webkit-transition: all ease 0.3s;
-    -o-transition: all ease 0.3s;
-    -ms-transition: all ease 0.3s;
-}
-
-.panel-footer .fa-facebook:hover { 
-    background: #4060A5;
-}
-
-.panel-footer .fa-instagram:hover { 
-    background: #375989;
-}
-
-.panel-footer .fa-envelope:hover{;
-	background: #3f2860;
-}
-
-.panel-footer .fa-envelope {
-	margin-right: 10px;
-	line-height: 70%;
-
-/*#footer {
+#footer {
 	margin-left: 20px;
 	position: absolute;
 	bottom: 10px;
 }
 
 .social {
-    margin-top: -50px;*/
+    margin-top: -50px;
 }
 
-/*footer .wrapper i{
+.social i {
     width: 40px;
     height: 40px;
     color: #FFF;
@@ -218,7 +134,7 @@ p {
     -ms-transition: all ease 0.3s;
 }
 
-footer .wrapper p i:hover {
+.social i:hover {
     color: #FFF;
     text-decoration: none;
     transition: all ease 0.3s;
@@ -228,27 +144,29 @@ footer .wrapper p i:hover {
     -ms-transition: all ease 0.3s;
 }
 
-footer .wrapper p .fa-facebook:hover { 
+.social .fa-facebook:hover { 
     background: #4060A5;
 }
 
-footer .wrapper p.fa-instagram:hover { 
+.social .fa-instagram:hover { 
     background: #375989;
 }
 
-footer .wrapper .social .fa-envelope:hover{;
+.social .fa-envelope:hover{;
 	background: #3f2860;
 }
 
-footer .wrapper .social .pull-right .fa-envelope {
+.pull-right .fa-envelope {
 	margin-right: 10px;
 	line-height: 70%;
 }
-/*.page-wrap {
+.page-wrap {
 	min-height: 100%;
-	margin-bottom: -142px;*/
+	margin-bottom: -142px;
 }
-/*2psl Apie veislyna*/
+
+/*PAGE-APIE VEISLYNĄ*/
+
 a {
    color:inherit;
 }
@@ -260,7 +178,9 @@ a {
 .text h3{
 	line-height: 1.5;
 }
-/*3psl. Nuorodos*/
+
+/*PAGE-NUORODOS*/
+
 .links {
 	margin: auto;
 	text-align: center;
@@ -274,26 +194,25 @@ a {
 	padding-bottom: 20px;
 }
 
-/*Kalytes*/
+/*PAGE-KALYTĖS*/
+
 .sisters h2 {
-	margin-left: 370px;
+	text-align: center;
 }
 
-.sisters {
-	margin-left: 90px;
-}
 .sisters h3 {
-	margin-left: 70px;
+	text-align: center;
 }
 
-/*Kolete*/
+/*PAGE-KOLETĖ*/
 
-.info .row .col-md-6 h4 {
+.container .info h4 {
 	text-align: left;
-	margin-left: -40px;
+	margin-left: -30px;
+	padding-bottom: 10px;
 }
 
-.info .row .col-md-6 i {
+.container .info i {
 	width: 30px;
     height: 30px;
     color: #FFF;
@@ -314,15 +233,10 @@ a {
 
 .info .row .col-md-6 h2 {
 	margin-top: -20px;
-}
-
-.info .row .col-md-6 {
 	text-align: center;
-	height: 100%;
 }
-
-.row .col-md-6 .health {
-	margin-top: 130px;
+.info .row .col-md-6 h3 {
+	text-align: center;
 }
 
 table{
@@ -343,27 +257,29 @@ table{
     font-size: 15px;
 }
 
-/*vados*/
+/*PAGE-VADOS*/
+
 .vados {
 	text-align: center;
 }
 .vados img{
-	width: 300px;
+	width: 400px;
 	padding: 10px;
 }
 
-/*naujienos,apie veisle*/
+/*PAGE-naujienos,apie veisle*/
 .container .prepare{
 	text-align: center;
 }
 
-/*vadaabcdeg*/
+/*PAGE-VADA ABCDHG*/
+
 .vados_detail {
 	text-align: center;
 }
 
 .vados_detail img{
-	width: 400px;
+	width: 600px;
 }
 
 .vados_detail h4 {
@@ -389,8 +305,35 @@ table{
     -ms-transition: all ease 0.3s;
 }
 
-.vados_detail h2 {
-	margin-top: -20px;
+/*MEDIA QUERIES*/
+
+@media (max-width:640px) {
+	.jumbotron {
+		background-image: url("Mainpic/pic3_resized2.jpg");
+		height: 300px;
+	}
+	.panel-heading .eng {
+		margin: auto;
+	}
+	.jtext {
+		text-align: center;
+	}
+	.panel-footer .email {
+		padding-right: 900px;
+	}
+	.info .col-md-6 img {
+		height: 300px;
+	}
+	.links .scale {
+		width: 100%;
+		height: auto; 
+	}
+	.vados_detail img {
+		width: 100%;
+		height: auto; 
+	}
+	.vados img {
+		width: 100%;
+		height: auto; 
+	}
 }
-
-
