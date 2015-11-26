@@ -338,6 +338,13 @@ table{
 	}
 	body h3 {
 		font-size: 18px;
+	}
+	body h2 {
+		font-size: 22px;
+	}
+	body h4 {
+		font-size: 18px;
+	}
 }
 @media (max-width:320px) {
 	.panel-heading .logo img {
@@ -349,6 +356,11 @@ table{
 	body {
 		margin-left: 5px;
 		margin-right: 5px;
-		}
+	}
+	.container .panel-heading {
+		margin-left: 5px;
+	}
+	.container .info h4 {
+		margin-left: 5px;
 	}
 }
