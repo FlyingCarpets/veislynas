@@ -336,6 +336,8 @@ table{
 		width: 100%;
 		height: auto; 
 	}
+	body h3 {
+		font-size: 18px;
 }
 @media (max-width:320px) {
 	.panel-heading .logo img {
@@ -343,5 +345,10 @@ table{
 	}
 	.panel-heading .eng img {
 		height: 30px;
+	}	
+	body {
+		margin-left: 5px;
+		margin-right: 5px;
+		}
 	}
 }
