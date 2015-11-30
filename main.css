@@ -366,4 +366,8 @@ table{
 	.container .info h4 {
 		margin-left: 5px;
 	}
+	.sisters img {
+		width: 100%;
+		height: auto; 
+	}
 }
