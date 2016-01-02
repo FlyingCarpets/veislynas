@@ -1,11 +1,12 @@
-/** {
+* {
 	border: black 1px solid;
-}*/
+}
 
 html {
 	position: relative;
 	min-height: 100%;
 	font-family: 'Open Sans', sans-serif;
+	overflow-x: hidden;
 }
 body {
 	font-family: 'Open Sans', sans-serif;
