@@ -313,7 +313,13 @@ table{
 		height: 300px;
 	}
 	.panel-heading .eng {
-		margin: auto;
+		margin-left: auto;
+	}
+	.panel-heading .eng img {
+		margin-left: -10px;
+	}
+	.panel-heading .logo img {
+		margin-left: -10px;
 	}
 	.jtext {
 		text-align: center;
@@ -369,5 +375,8 @@ table{
 	.sisters img {
 		width: 100%;
 		height: auto; 
+	}
+	.panel-heading .eng img {
+		margin-left: -12px;
 	}
 }
