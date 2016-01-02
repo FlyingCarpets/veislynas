@@ -10,6 +10,7 @@ html {
 body {
 	font-family: 'Open Sans', sans-serif;
 	margin: 10px 20px 80px 20px;
+	overflow-x: hidden;
 }
 
 /*LOGO & LANGUAGE*/
@@ -37,7 +38,7 @@ body {
 .navbar { 
     font-size: 20px;
     background-color: white;
-    background-image: url("Patterns/swirl_pattern/swirl_pattern_op88.png");
+    background-image: url("Patterns/swirl_pattern/swirl_pattern.png");
 	background-repeat: repeat;
 	margin-top: 10px;
 	margin-bottom: 5px;
@@ -50,7 +51,7 @@ li {
 	padding-right: 30px;
 }
 
-.navbar-default .container .navbar-nav li a{ 
+.navbar-default .container-fluid .navbar-nav li a{
 	color: #393939;
 }
 
@@ -75,7 +76,6 @@ li {
 .jumbotron .jtext {
 	float: center;
 	margin-left: 10px;
-	
 }
 
 .jumbotron h1 {
@@ -92,7 +92,7 @@ li {
 /*THUMBNAILS*/
 
 .kennel {
-	background-image: url("Patterns/swirl_pattern/swirl_pattern_op90.png");
+	background-image: url("Patterns/swirl_pattern/swirl_pattern.png");
 	background-repeat: repeat;
 	padding-top: 20px;
 	border: 1px solid #cdcdcd; 
@@ -307,11 +307,6 @@ table{
 
 /*MEDIA QUERIES*/
 
-@media (max-width:1280px) {
-	body {
-		overflow-x: hidden;
-	}
-}
 @media (max-width:640px) {
 	.jumbotron {
 		background-image: url("Mainpic/pic3_resized2.jpg");
@@ -350,8 +345,8 @@ table{
 	body h4 {
 		font-size: 18px;
 	}
-	body {
-		overflow-x: hidden;
+	.jumbotron h3 {
+		font-size: 30px;
 	}
 }
 @media (max-width:320px) {
@@ -376,17 +371,3 @@ table{
 		height: auto; 
 	}
 }
-
-@media (min-width:1366px) {
-	body {
-		margin-left: 5%;
-		margin-right: 5%;
-	}
-}
-@media (min-width:1600px) {
-	body {
-		margin-left: 10%;
-		margin-right: 10%;
-}
-
-
