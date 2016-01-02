@@ -307,7 +307,11 @@ table{
 }
 
 /*MEDIA QUERIES*/
-
+@media (max-width:1024px) {
+	.container .info h4 {
+		margin-left: 30px;
+	}
+}
 @media (max-width:640px) {
 	.jumbotron {
 		background-image: url("Mainpic/pic3_resized2.jpg");
