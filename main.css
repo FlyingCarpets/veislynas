@@ -52,8 +52,11 @@ li {
 	padding-right: 30px;
 }
 
-.navbar-default .container-fluid .navbar-nav li a{
-	color: #393939;
+.navbar-collapse .navbar-nav li a{
+	color: black;
+}
+.navbar-collapse .navbar-nav .active a{
+	color: black;
 }
 
 .navbar-default .navbar-toggle {
