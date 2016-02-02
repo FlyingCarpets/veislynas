@@ -1,0 +1,391 @@
+/** {
+	border: black 1px solid;
+}*/
+
+/*MAIN ELEMENTS*/
+html {
+	position: relative;
+	min-height: 100%;
+	font-family: 'Open Sans', sans-serif;
+	overflow-x: hidden;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 10px 20px 80px 20px;
+	overflow-x: hidden;
+}
+
+/*LOGO & LANGUAGE*/
+.container .panel-heading {
+	padding: 10px 10px 0px 10px;
+}
+.panel-heading {
+	background-color: white;
+}
+
+.panel-heading div {
+	display: inline-block;
+}
+.panel-heading .logo {
+	padding-right: 700px;
+	margin-left: -10px;
+}
+
+.panel-heading .eng {
+	opacity: 0.5;
+}
+
+/*NAVBAR*/
+
+.navbar { 
+    font-size: 20px;
+    background-color: white;
+    background-image: url("../images/Patterns/swirl_pattern/swirl_pattern.png");
+	background-repeat: repeat;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	border-radius: 0;
+	border: 1px solid #cdcdcd; /*navbar border padaro kaip ir kennel border*/
+}
+
+li {
+	padding-left: 30px; /*tam, kad navbar butu per visa puslapi*/
+	padding-right: 30px;
+}
+
+.navbar-collapse .navbar-nav li a{
+	color: black;
+}
+.navbar-collapse .navbar-nav .active a{
+	color: black;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: black;
+}
+
+.navbar-toggle .icon-bar {
+	border: 1px solid black;
+}
+
+/*MAIN PIC*/
+
+.jumbotron {
+	background-image: url("../images/Mainpic/pic3_resized.jpg");
+	height: 500px;
+	background-size: cover;
+	background-position: right;
+	color: white;
+}
+
+.jumbotron .jtext {
+	float: center;
+	margin-left: 10px;
+}
+
+.jumbotron h1 {
+	text-shadow: 2px 2px #393939;
+	font-size: 70px;
+	font-weight: bold;
+}
+
+.jumbotron h3 {
+	text-shadow: 2px 2px #393939;
+	font-size: 47px;
+}
+
+/*THUMBNAILS*/
+
+.kennel {
+	background-image: url("../images/Patterns/swirl_pattern/swirl_pattern.png");
+	background-repeat: repeat;
+	padding-top: 20px;
+	border: 1px solid #cdcdcd; 
+}
+
+
+p {
+	font-size: 18px;
+	text-align: center;
+	line-height: 90%;
+}
+
+#footer {
+	margin-left: 20px;
+	position: absolute;
+	bottom: 10px;
+}
+
+.social {
+    margin-top: -50px;
+}
+
+.social i {
+    width: 40px;
+    height: 40px;
+    color: #FFF;
+    background-color: #909AA0;
+    font-size: 22px;
+    text-align:center;
+    padding-top: 12px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+.social i:hover {
+    color: #FFF;
+    text-decoration: none;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+.social .fa-facebook:hover { 
+    background: #4060A5;
+}
+
+.social .fa-instagram:hover { 
+    background: #375989;
+}
+
+.social .fa-envelope:hover{;
+	background: #3f2860;
+}
+
+.pull-right .fa-envelope {
+	margin-right: 10px;
+	line-height: 70%;
+}
+.page-wrap {
+	min-height: 100%;
+	margin-bottom: -142px;
+}
+
+/*PAGE-APIE VEISLYNĄ*/
+
+a {
+   color:inherit;
+}
+
+.text {
+	margin-bottom: 15px;
+}
+
+.text h3{
+	line-height: 1.5;
+}
+
+/*PAGE-NUORODOS*/
+
+.links {
+	margin: auto;
+	text-align: center;
+}
+
+.links h3 {
+	padding-bottom: 20px;
+}
+
+.links img {
+	padding-bottom: 20px;
+}
+
+/*PAGE-KALYTĖS*/
+
+.sisters h2 {
+	text-align: center;
+}
+
+.sisters h3 {
+	text-align: center;
+}
+
+/*PAGE-KOLETĖ*/
+
+.container .info h4 {
+	text-align: left;
+	margin-left: -30px;
+	padding-bottom: 10px;
+}
+
+.container .info i {
+	width: 30px;
+    height: 30px;
+    color: #FFF;
+    background-color: #909AA0;
+    font-size: 22px;
+    text-align:center;
+    padding-top: 3px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+.info .row .col-md-6 h2 {
+	margin-top: -20px;
+	text-align: center;
+}
+.info .row .col-md-6 h3 {
+	text-align: center;
+}
+
+table{
+    table-layout: fixed;
+    margin-top: 40px;
+
+}
+
+.container .table-bordered tr th {
+	text-align: center;
+}
+
+.container .table-bordered tr td {
+	vertical-align: middle;
+	word-wrap:break-word;
+    text-align: center;
+    border: solid 1px #cdcdcd;
+    font-size: 15px;
+}
+
+/*PAGE-VADOS*/
+
+.vados {
+	text-align: center;
+}
+.vados img{
+	width: 400px;
+	padding: 10px;
+}
+
+/*PAGE-naujienos,apie veisle*/
+.container .prepare{
+	text-align: center;
+}
+
+/*PAGE-VADA ABCDHG*/
+
+.vados_detail {
+	text-align: center;
+}
+
+.vados_detail img{
+	width: 600px;
+}
+
+.vados_detail h4 {
+	text-align: left;
+}
+
+.vados_detail i {
+	width: 30px;
+    height: 30px;
+    color: #FFF;
+    background-color: #909AA0;
+    font-size: 22px;
+    text-align:center;
+    padding-top: 3px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width:1024px) {
+	.container .info h4 {
+		margin-left: 30px;
+	}
+}
+@media (max-width:640px) {
+	.jumbotron {
+		background-image: url("../images/Mainpic/pic3_resized2.jpg");
+		height: 300px;
+	}
+	.panel-heading .eng {
+		margin-left: auto;
+	}
+	.panel-heading .eng img {
+		margin-left: -10px;
+	}
+	.panel-heading .logo img {
+		margin-left: -10px;
+	}
+	.jtext {
+		text-align: center;
+	}
+	.panel-footer .email {
+		padding-right: 900px;
+	}
+	.info .col-md-6 img {
+		height: 300px;
+	}
+	.links .scale {
+		width: 100%;
+		height: auto; 
+	}
+	.vados_detail img {
+		width: 100%;
+		height: auto; 
+	}
+	.vados img {
+		width: 100%;
+		height: auto; 
+	}
+	body h3 {
+		font-size: 18px;
+	}
+	body h2 {
+		font-size: 22px;
+	}
+	body h4 {
+		font-size: 18px;
+	}
+	.jumbotron h3 {
+		font-size: 30px;
+	}
+}
+@media (max-width:320px) {
+	.panel-heading .logo img {
+		height: 35px; 
+	}
+	.panel-heading .eng img {
+		height: 30px;
+	}	
+	body {
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	.container .panel-heading {
+		margin-left: 5px;
+	}
+	.container .info h4 {
+		margin-left: 5px;
+	}
+	.sisters img {
+		width: 100%;
+		height: auto; 
+	}
+	.panel-heading .eng img {
+		margin-left: -12px;
+	}
+}
